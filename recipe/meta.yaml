@@ -13,7 +13,7 @@ source:
     - enhance-gcc-checks.patch
 
 build:
-  number: 0
+  number: 1
   script: "{{ PYTHON }} -m pip install . -vv"
   skip: true  # [not linux]
 
