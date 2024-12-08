@@ -21,8 +21,6 @@ requirements:
   build:
     - {{ compiler('c') }}
     - {{ stdlib('c') }}
-    # This recipe requires newer kernel headers
-    - kernel-headers_linux-64 3.10  # [linux64]
   host:
     - python
     - pip
